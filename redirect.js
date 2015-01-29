@@ -2,7 +2,7 @@ var hash = window.location.hash.replace('#', '');
 
 var json = {};
 
-console.log("red" + document.referrer);
+console.log("red" + window.history.previous.href);
 
 json.Abc = "http://google.com/";
 
