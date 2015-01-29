@@ -2,6 +2,8 @@ var hash = window.location.hash.replace('#', '');
 
 var json = {};
 
+console.log(document.referrer);
+
 json.Abc = "http://google.com/";
 
 if(json[hash])
